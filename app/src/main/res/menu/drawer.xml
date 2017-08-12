@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_habits_page"
+        android:icon="@drawable/ic_create"
+        android:title="Notes" />
+         <item android:id="@+id/help"
+             android:icon="@drawable/ic_help"
+             android:title="Help"
+             />
+         <item android:id="@+id/nav_support"
+             android:icon="@drawable/ic_build7"
+             android:title="Support" />
+         <item android:id="@+id/nav_share"
+             android:icon="@drawable/ic_share7"
+             android:title="Share "
+             />
+         <item android:id="@+id/about"
+             android:icon="@drawable/ic_developer_mode_black_48dp"
+             android:title="About"
+             />
+        </group>
+</menu>

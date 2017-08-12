@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="theme_colors" translatable="false">
+        <item>#FFAB40</item>
+        <item>#e4caca</item>
+        <item>#40C4FF</item>
+        <item>#F8BBD0</item>
+        <item>#F4FF81</item>
+        <item>#00E676</item>
+        <item>#B2FF59</item>
+        <item>#E1BEE7</item>
+        <item>#69F0AE</item>
+        <item>#a300bcd4</item>
+        <item>#FFCA28</item>
+        <item>#B0BEC5</item>
+
+
+
+    </array>
+    <array name="menu" translatable="false">
+    <item>edit</item>
+        <item>delete</item>
+        <item>archive</item>
+    </array>
+</resources>

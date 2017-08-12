@@ -1,0 +1,4 @@
+<resources>
+        <string name="screen_type">phones</string>
+        <dimen name="size">55dp</dimen>
+</resources>

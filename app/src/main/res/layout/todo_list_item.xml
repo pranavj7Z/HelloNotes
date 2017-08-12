@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_gravity="center_vertical|end" />
+
+    <TextView
+        android:id="@+id/Tasks"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_gravity="fill_horizontal|center_vertical"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/todo_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        android:contentDescription="@string/notes_menu"
+        app:layout_gravity="center_horizontal|top"
+        app:layout_row="0"
+        app:layout_column="3"
+        android:layout_gravity="right" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/checkbox1"
+            android:src="@drawable/ic_notifications_active7777"
+            android:layout_width="17dp"
+            android:background="#FFFFFF"
+            android:layout_height="17dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+             />
+        <TextView
+            android:id="@+id/goal_start_date"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:layout_row="0"
+            android:textSize="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            app:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Headline"
+            tools:text="16/11/1997" />
+
+
+
+        <TextView
+            android:id="@+id/reminder_time"
+        android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            style="@style/TextAppearance.AppCompat.Headline"
+            tools:text="13:55" />
+</LinearLayout>
+    </LinearLayout>

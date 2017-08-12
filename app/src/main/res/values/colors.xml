@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#9C27B0</color>
+    <color name="primary_dark">#4A148C</color>
+    <color name="accent">#EA80FC</color>
+    <color name="default_theme">#B2FF59</color>
+    <color name="gg">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#e3e3e3</color>
+    <color name="pink">#FF4081</color>
+    <color name="dev">#5c5691</color>
+
+</resources>

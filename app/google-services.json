@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "147470852346",
+    "firebase_url": "https://hello-note-34948.firebaseio.com",
+    "project_id": "hello-note-34948",
+    "storage_bucket": "hello-note-34948.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147470852346:android:de30dbcc755b7662",
+        "android_client_info": {
+          "package_name": "com.pranavj7.android.hellonote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147470852346-gslusapl6n5102bn7jquqdrotq6ud1tq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr-goSFUFB6-p3i98DL7N9XaMKI-o44Os"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

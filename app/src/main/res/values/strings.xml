@@ -1,0 +1,124 @@
+<resources>
+    <string name="authority" translatable="false">com.pranavj7.android.HelloNote.provider</string>
+    <string name="sync_account_type" translatable="false">HelloNote.zeptua.com</string>
+    <string name="quotes_of_day" translatable="false">quotes_of_day</string>
+    <string name="default_quote_of_day">Love is the greatest refreshment in life. \n -Pablo Picasso</string>
+    <string name="task">To-Do reminder : </string>
+    <string name="del">Delete?</string>
+    <string name="button" translatable="false">date</string>
+    <string name="sortby" translatable="false">Sort By</string>
+    <string name="Quotesoftheday" translatable="false">Quote of the Hour</string>
+    <string name="notasks" translatable="false">you dont have any To-do</string>
+    <string name="app_name">HelloNotes</string>
+    <string name="widget_empty">No notes to Display</string>
+    <string name="Help"><b>1.0 Where can i find the To-do option?</b>\n\n
+    HelloNotes provides To-do list within every notes you make.open a note and slide your note to the
+        left to add a To-do.\n\n
+
+        <b>1.1 How can i set the reminder for each To-do?</b>\n\n
+        With each To-do you make,you get a notify me checkbox which you could check to set the reminder.\n\n
+
+        <b>1.2 How can i turn off the To-do reminder?</b>\n\n
+        disable the notification by unchecking the notify me checkbox in the To-do.\n\n
+
+        <b>1.3 How can i share my notes?</b>\n\n
+        You can share your notes by clicking on the share icon available at the bottom end of each notes.\n
+
+    </string>
+
+
+    <string name="privacy">
+
+       <centre><b>What is the scope of this Privacy Policy?</b></centre>\n\n
+This Agreement is a legal agreement between you and “HelloNotes” regarding your downloading, installation
+        and use of HelloNotes mobile application software.\n\n
+
+<b>Will This Privacy Policy Ever Change?</b>\n\n
+As HelloNotes evolves, we may need to update this Policy to keep pace with changes in the Service, our business and you;
+ we will, however,
+ always maintain our commitment to respect your privacy. We will post any revisions to this Policy, along with their effective date,
+so we recommend that you periodically check back here on every updates to stay informed of any changes. As long as you continue to use the Service, you are bound by the terms of the Privacy Policy.
+ If you disagree with any changes to this Policy and do not wish your information to be subject to a revised Policy, you will need to stop using the Service.\n\n
+
+<b>I. Where Is My Data Stored and Processed?</b>\n\n
+When you use HelloNotes on your mobile device,
+Content you save will be stored locally on that device.\n
+We do not store or have accesses to any of the Contents you add to HelloNotes.\n\n
+
+<b>II.Information Collection and Use</b>\n\n-
+
+we collect some information in the background (like device type, operating system, etc.)
+as part of our efforts to understand how you and others access and use the Service.\n\n
+
+        1.1.Why we collect it and how we use that information\n\n
+        We collect this information for the following purposes:\n
+         a.getting crash reports.\n
+         b.Providing and improving our services.\n
+         c.Adjusting contents of the application to the users preferences and optimizing the use of these applications.\n
+         d.Creating statistics that help us to understand how users use our services, which enables us to improving the software continuously.\n
+         e.Ads presentation, including in a way that respects users interests and his place of residence.\n\n
+
+        1.2.Do we disclose any information to outside parties?\n\n
+We do not sell, trade, or otherwise transfer to outside parties any information about you.\n\n
+
+<b>III Termination</b>\n\n
+You have the right to fully and permanently remove the Software from your mobile device at any time and terminate this Agreement.\n
+    </string>
+
+    <string name="note_details">Note Details</string>
+    <string name="create_note">Create Note</string>
+
+    <string name="time_format">%1$02d:%2$02d</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_sortby_latest">SortBy  Newest</string>
+    <string name="action_sortby_oldest">SortBy  Oldest</string>
+    <string name="action_include_archived">Include Archived</string>
+
+    <string name="action_notes">Notes</string>
+    <string name="action_todo">Todo</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_add_notest">Add Notes</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8536273912281952/2536602629</string>
+    <string name="action_edit">Edit</string>
+
+    <string name="action_archive">Archive</string>
+    <string name="action_remove">Delete</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Remove Note dialog -->
+    <string name="dialog_remove_note">Delete this Note?</string>
+    <string name="dialog_remove_message">This will permanently delete the Note and all of its Todos.</string>
+    <string name="dialog_delete_note_ok">Delete</string>
+    <string name="dialog_delete_cancel">Cancel</string>
+
+    <!-- Notes details activity view -->
+
+    <string name="tab_note_details">Notes</string>
+    <string name="tab_todo">To-Dos</string>
+    <string name="Todo_menu">To-Do menu</string>
+    <!-- Todo dialog -->
+    <string name="Todo_remove_message">"This will permanently delete the Todo."</string>
+    <string name="Todo_dialog_delete">Delete?</string>
+    <string name="Todo_dialog_title">Add To-Do</string>
+    <string name="Todo_dialog_positive">Done</string>
+    <string name="Todo_delete">delete</string>
+    <string name="Todo_dialog_negative">Cancel</string>
+    <string name="Todo_add">add To-Do</string>
+    <!-- Note list view -->
+    <string name="notes_list_empty">You have no Notes yet</string>
+    <string name="notes_menu">Notes menu</string>
+    <!-- Create/edit Note -->
+    <string name="note_title">Title</string>
+    <string name="note_description">Notes</string>
+    <string name="note_date">Date</string>
+    <string name="note_color">Color</string>
+    <string name="note_error_Title_required">A Title is required</string>
+    <string name="note_error_notes_required">Note field cannot be blank</string>
+    <string name="hellonote">HelloNotes</string>
+    <string name="please">please share and support</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_sort_by"
+          android:title="@string/sortby"
+        android:icon="@drawable/ic_sort"
+          app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/action_sortby_latest"
+                  android:title="SortBy  Latest" />
+
+            <item android:id="@+id/action_sortby_oldest"
+                  android:title="SortBy  Oldest" />
+
+            <item android:id="@+id/action_sortby_alpha"
+                android:title="SortBy  Title" />
+        </menu>
+    </item>
+
+    <group android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item android:id="@+id/allnotes"
+            android:checked="true"
+            android:title="all notes"/>
+        <item android:id="@+id/favorites"
+            android:title="favorites"/>
+        <item android:id="@+id/archive"
+            android:title="archive"/>
+    </group>
+
+</menu>

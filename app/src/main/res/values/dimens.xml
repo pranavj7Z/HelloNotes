@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- ma
+  rgin to add below the last item in a recycler so it scrolls past the fab -->
+    <dimen name="recycler_fab_margin">90dp</dimen>
+    <dimen name="theme_icon_size">38dp</dimen>
+    <dimen name="theme_icon_margin">2dp</dimen>
+    <dimen name="day_button_padding">4dp</dimen>
+    <dimen name="day_button_size">36dp</dimen>
+    <string name="screen_type">default</string>
+    <dimen name="design_fab_image_size" tools:override="true">36dp</dimen>
+    <dimen name="size">55dp</dimen>
+</resources>
